@@ -1,11 +1,5 @@
 @media (max-width: 449px) {
-    .modal_youtube {
-      position: absolute;
-      width: 100%;
-      height: 300px;
-      background-color: black;
-      z-index: 10002;
-    }
+
     .header {
       height: 630px;
     }
@@ -87,51 +81,7 @@
       margin: 5%;
       width: 22%;
     }
-    .skills_container {
-      display: grid;
-      grid-template-columns: repeat(3, auto);
-      grid-auto-rows: repeat(4, auto);
-      max-height: unset;
-      margin-bottom: 13%;
-    }
-    .skills_skillbox {
-      margin: 10px;
-      margin-bottom: 15px;
-      margin-right: 0;
-      margin-left: 0;
-      width: 55px;
-      height: 55px;
-    }
-    .skills_skillbox:hover .skills_img {
-      opacity: 1;
-    }
-    .skills_title {
-      letter-spacing: 2px;
-      opacity: 0;
-      font-size: 0px;
-      z-index: 2;
-      transition: all 0.3s ease-out;
-    }
-    .skills_text {
-      padding: 20px;
-      padding-top: 25px;
-      word-spacing: 2px;
-      opacity: 0;
-      font-size: 0px;
-      z-index: 2;
-      transition: all 0.3s ease-out;
-    }
-    .skills_img {
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 1;
-      z-index: 1;
-    }
-    .skills_readmore {
-      display: none;
-    }
+
     .project_container {
       align-items: center;
       flex-flow: column;
@@ -173,7 +123,6 @@
     .project_img1 {
       background-image: url("./src/portfolio_img/portfolio1_mobile.png");
     }
-    /* .project_img1:hover{background-image: url('./src/portfolio_img/portfolio1_mobile.png')} */
     .project_img2 {
       background-image: url("./src/portfolio_img/portfolio2_mobile.png");
       order: 2;
@@ -181,43 +130,8 @@
     .project_img3 {
       background-image: url("./src/portfolio_img/portfolio2.gif");
     }
-    /* .project_img3{background-image: url('./src/portfolio_img/portfolio2.gif')} */
+    
   
-    .footer {
-      justify-content: flex-start;
-      height: 90vw;
-    }
-    .footer_contact_container {
-      width: 90%;
-      flex-flow: column;
-      margin: 0;
-      margin-top: 12%;
-      margin-bottom: 12%;
-    }
-    .footer_contact1 {
-      margin-bottom: 6%;
-      padding: 8%;
-      width: max-content;
-      border-right: 0;
-      border-bottom: 2px dashed #626262;
-      font-size: 1.2em;
-      text-align: center;
-    }
-    .footer_contact2 {
-      padding: 0;
-      width: 80%;
-      justify-content: space-around;
-    }
-    .footer_contact2 div {
-      margin-left: unset;
-      width: 40px;
-      height: 40px;
-      width: max-content;
-      font-size: 40px;
-    }
-    .skills_container {
-      transition: all 0.9s ease-in-out;
-    }
     #readmore_checkbox:checked + .skills_container {
       max-height: 1250px;
     }
