@@ -3,6 +3,8 @@ var nav_mobile_on = false;
 
 var header = document.getElementsByClassName("header");
 var header_title = document.getElementsByClassName("header_title");
+var tree = document.getElementsByClassName("tree");
+var apple = document.getElementsByClassName("apple");
 
 var nav = document.getElementsByClassName("nav");
 var nav_menu = document.getElementsByClassName("nav_menu");
@@ -83,6 +85,9 @@ window.onload = function() {
     // 헤더 타이틀 opacity
     if (scrolltop < section[0].offsetTop / 2) {
       header_title[0].style.opacity = 1 - (scrolltop * 0.004).toFixed(1);
+      tree[0].style.opacity = (scrolltop * 0.004).toFixed(1);
+      apple[0].style.opacity=(scrolltop * 0.004).toFixed(1);
+
     }
 
     // 스크롤에 따른 Nav bar화면 고정
