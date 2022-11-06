@@ -62,7 +62,7 @@ body * {
 }
 
 .highlight {
-  color: #fe4a49;
+  color: #2c168f;
 }
 
 .highlight::selection {
@@ -152,12 +152,19 @@ canvas {
 
 }
 .header .image-div{
-  width: 500px;
+  width: 100%;
   height: 500px;
   position: absolute;
   bottom: -100px;
-  left: 50%;
+  left: 460px;
   /* display: none; */
+}
+@media screen and (max-width:768px){
+  .header_container .header_title p{
+    width: 100%;
+    font-size: 3rem;
+  }
+
 }
 #svg{
   fill: green;
@@ -322,6 +329,7 @@ canvas {
 
 .skill_content{
   font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 #skills{
   display: flex;
