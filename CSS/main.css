@@ -54,7 +54,7 @@ body * {
 }
 
 .article_title {
-  color: #45476a;
+  color: black;
 }
 
 .footer_container {
@@ -249,7 +249,7 @@ canvas {
   height: max-content;
   font-size: 2em;
   font-weight: 600;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.575);
 }
 
 /* About part  */
@@ -303,6 +303,37 @@ canvas {
   font-weight: 300;
 }
 
+.intro{
+  margin-top: 30px;
+}
+
+.top_content{
+  display: block;
+  margin-top: 50px;
+  font-size: 1.8rem;
+  line-height: 70px;
+  text-align: center;
+}
+
+.myself_content p{
+  
+  font-size: 1.6rem;
+}
+
+.skill_content{
+  font-size: 1.2rem;
+}
+#skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#skills .row{
+  display: flex;
+  gap: 3rem;
+}
 
 /* Project part */
 .section_project {
