@@ -104,7 +104,7 @@ window.onload = function() {
       if (
         anicheck == 0&&
         scrolltop + client_height / 2 >=
-        section[1].offsetTop + project_container[0].offsetTop
+        section[2].offsetTop + project_container[0].offsetTop
       ) {
         project_img1[0].style.animation = "slide-right 0.7s ease-out both";
         project_intro1[0].style.animation = "slide-left 0.7s ease-out both";
@@ -115,7 +115,7 @@ window.onload = function() {
       if (
         anicheck == 1 &&
         scrolltop + client_height / 2 >=
-          section[1].offsetTop + project_container[1].offsetTop
+          section[2].offsetTop + project_container[1].offsetTop
       ) {
         project_img2[0].style.animation = "slide-left 0.7s ease-out both";
         project_intro2[0].style.animation = "slide-right 0.7s ease-out both";
@@ -126,7 +126,7 @@ window.onload = function() {
       if (
         anicheck == 2 &&
         scrolltop + client_height / 2 >=
-          section[1].offsetTop + project_container[2].offsetTop
+          section[2].offsetTop + project_container[2].offsetTop
       ) {
         project_img3[0].style.animation = "slide-right 0.7s ease-out both";
         project_img3[0].style.opacity = "1";
