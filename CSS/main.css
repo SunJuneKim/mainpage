@@ -397,8 +397,17 @@ canvas {
 
 .project_intro {
   margin: 2%;
-  width: 50%;
+  width: 30%;
+  border: solid;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
+.project_intro div:first-child{
+  justify-content:flex-end;
+  
+}
+
 .project_intro2 {
   order: 1;
 }
@@ -460,11 +469,11 @@ canvas {
 
 .project_intro_button:hover {
   color: white;
-  background-color: #E6150B;
+  background-color:rgb(44, 22, 143);
+  border: 1px solid rgb(44, 22, 143);
 }
-
-.project_intro_button i {
-  font-size: 30px;
+.project_intro_button p{
+  font-size: 1em;
 }
 
 .project_intro_button2 {
